@@ -1,0 +1,942 @@
+{
+  "meta": {
+    "omschrijving": "Afvalkalender gemeente Texel 2026, omgezet naar data",
+    "bronnen": {
+      "kalender": "referentie/data/Afvalkalender-Texel-2026.pdf (pagina 1, aangemaakt 22-04-2026)",
+      "routes_en_uitzonderingen": "https://www.texel.nl/direct-regelen/afval/afval-ophalen/afvalkalender-en-ophaalroute/ (geraadpleegd 2026-10-24)"
+    },
+    "weken": "ISO-weken, maandag t/m zondag. Week 2026-W53 (28 dec - 3 jan 2027) staat in de PDF als '1'.",
+    "frequentie": "Elke container wordt eens per 3 weken geleegd. Vaste cyclus: oranje -> groen+blauw -> grijs.",
+    "aan_de_weg": "Containers om 07.00 uur aan de weg zetten.",
+    "grofvuil": "Grofvuil op dinsdag in de oranje week, grof tuinafval op dinsdag in de groene week, behalve op of rond feestdagen (dan ontbreekt de datum). Alleen op afspraak: 14 0222 of www.texel.nl/grofvuil."
+  },
+  "containers": {
+    "grijs": {
+      "naam": "Grijze container",
+      "inhoud": "Restafval (geen flessen, papier en ijzer)",
+      "kleur_hex": "#4a4a4a"
+    },
+    "oranje": {
+      "naam": "Oranje container",
+      "inhoud": "Blik, folie, plastic zakken, plastic flessen, flacons en drankkartons",
+      "kleur_hex": "#d9412b"
+    },
+    "groen": {
+      "naam": "Groene container",
+      "inhoud": "Groente-, fruit- en tuinafval",
+      "kleur_hex": "#2b7a3d"
+    },
+    "blauw": {
+      "naam": "Blauwe container",
+      "inhoud": "Oud papier en karton",
+      "kleur_hex": "#3f6fc4"
+    }
+  },
+  "routes": {
+    "toelichting": "Ophaaldag binnen de week van die container. Gebieden zoals de gemeente ze noemt; grenzen staan niet op de website.",
+    "groen_grijs_oranje": {
+      "maandag": [
+        "Eierland",
+        "De Cocksdorp e.o.",
+        "'t Noorden",
+        "Oost",
+        "Oosterend e.o.",
+        "De Waal"
+      ],
+      "dinsdag": [
+        "Den Burg centrum",
+        "Den Burg West"
+      ],
+      "woensdag": [
+        "'t Horntje",
+        "Den Hoorn",
+        "De Westen",
+        "Den Burg Oost"
+      ],
+      "donderdag": [
+        "De Koog e.o.",
+        "Bosrandweg",
+        "Californiëweg",
+        "Gerritsland",
+        "Pontweg"
+      ],
+      "vrijdag": [
+        "Oudeschild",
+        "Spang",
+        "Nieuwlanderweg",
+        "Zuid Haffel"
+      ]
+    },
+    "blauw": {
+      "maandag": [
+        "De Cocksdorp e.o.",
+        "Oosterend e.o."
+      ],
+      "dinsdag": [
+        "Rest van het eiland"
+      ]
+    }
+  },
+  "feestdagen": [
+    {
+      "datum": "2026-01-01",
+      "naam": "Nieuwjaarsdag"
+    },
+    {
+      "datum": "2026-04-03",
+      "naam": "Goede Vrijdag"
+    },
+    {
+      "datum": "2026-04-05",
+      "naam": "Eerste Paasdag"
+    },
+    {
+      "datum": "2026-04-06",
+      "naam": "Tweede Paasdag"
+    },
+    {
+      "datum": "2026-04-27",
+      "naam": "Koningsdag"
+    },
+    {
+      "datum": "2026-05-05",
+      "naam": "Bevrijdingsdag"
+    },
+    {
+      "datum": "2026-05-14",
+      "naam": "Hemelvaartsdag"
+    },
+    {
+      "datum": "2026-05-24",
+      "naam": "Eerste Pinksterdag"
+    },
+    {
+      "datum": "2026-05-25",
+      "naam": "Tweede Pinksterdag"
+    },
+    {
+      "datum": "2026-12-25",
+      "naam": "Eerste Kerstdag"
+    },
+    {
+      "datum": "2026-12-26",
+      "naam": "Tweede Kerstdag"
+    },
+    {
+      "datum": "2027-01-01",
+      "naam": "Nieuwjaarsdag"
+    }
+  ],
+  "inhaaldagen": [
+    {
+      "datum": "2025-12-31",
+      "vervangt_feestdag": "2026-01-01",
+      "koppeling_afgeleid": true
+    },
+    {
+      "datum": "2026-04-01",
+      "vervangt_feestdag": "2026-04-03",
+      "koppeling_afgeleid": true
+    },
+    {
+      "datum": "2026-04-08",
+      "vervangt_feestdag": "2026-04-06",
+      "koppeling_afgeleid": true
+    },
+    {
+      "datum": "2026-04-29",
+      "vervangt_feestdag": "2026-04-27",
+      "koppeling_afgeleid": true
+    },
+    {
+      "datum": "2026-05-06",
+      "vervangt_feestdag": "2026-05-05",
+      "koppeling_afgeleid": true
+    },
+    {
+      "datum": "2026-05-13",
+      "vervangt_feestdag": "2026-05-14",
+      "koppeling_afgeleid": true
+    },
+    {
+      "datum": "2026-05-27",
+      "vervangt_feestdag": "2026-05-25",
+      "koppeling_afgeleid": true
+    },
+    {
+      "datum": "2026-12-23",
+      "vervangt_feestdag": "2026-12-25",
+      "koppeling_afgeleid": true
+    },
+    {
+      "datum": "2026-12-30",
+      "vervangt_feestdag": "2027-01-01",
+      "koppeling_afgeleid": true
+    }
+  ],
+  "uitzonderingen": [
+    {
+      "week": "2026-W46",
+      "datum": "2026-11-11",
+      "vervangt": "2026-11-12",
+      "gebieden": [
+        "De Koog e.o.",
+        "Bosrandweg",
+        "Californiëweg",
+        "Gerritsland",
+        "Pontweg"
+      ],
+      "omschrijving": "Geen ophaling op donderdag 12 november; oranje container wordt een dag eerder geleegd, op woensdag 11 november.",
+      "bron": "website"
+    }
+  ],
+  "weken": [
+    {
+      "iso_week": "2026-W01",
+      "label_in_pdf": 1,
+      "maandag": "2025-12-29",
+      "zondag": "2026-01-04",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [
+        "2026-01-01"
+      ],
+      "inhaaldagen": [
+        "2025-12-31"
+      ]
+    },
+    {
+      "iso_week": "2026-W02",
+      "label_in_pdf": 2,
+      "maandag": "2026-01-05",
+      "zondag": "2026-01-11",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-01-06",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W03",
+      "label_in_pdf": 3,
+      "maandag": "2026-01-12",
+      "zondag": "2026-01-18",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W04",
+      "label_in_pdf": 4,
+      "maandag": "2026-01-19",
+      "zondag": "2026-01-25",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-01-20",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W05",
+      "label_in_pdf": 5,
+      "maandag": "2026-01-26",
+      "zondag": "2026-02-01",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-01-27",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W06",
+      "label_in_pdf": 6,
+      "maandag": "2026-02-02",
+      "zondag": "2026-02-08",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W07",
+      "label_in_pdf": 7,
+      "maandag": "2026-02-09",
+      "zondag": "2026-02-15",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-02-10",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W08",
+      "label_in_pdf": 8,
+      "maandag": "2026-02-16",
+      "zondag": "2026-02-22",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-02-17",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W09",
+      "label_in_pdf": 9,
+      "maandag": "2026-02-23",
+      "zondag": "2026-03-01",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W10",
+      "label_in_pdf": 10,
+      "maandag": "2026-03-02",
+      "zondag": "2026-03-08",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-03-03",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W11",
+      "label_in_pdf": 11,
+      "maandag": "2026-03-09",
+      "zondag": "2026-03-15",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-03-10",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W12",
+      "label_in_pdf": 12,
+      "maandag": "2026-03-16",
+      "zondag": "2026-03-22",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W13",
+      "label_in_pdf": 13,
+      "maandag": "2026-03-23",
+      "zondag": "2026-03-29",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-03-24",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W14",
+      "label_in_pdf": 14,
+      "maandag": "2026-03-30",
+      "zondag": "2026-04-05",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-03-31",
+      "feestdagen": [
+        "2026-04-03",
+        "2026-04-05"
+      ],
+      "inhaaldagen": [
+        "2026-04-01"
+      ]
+    },
+    {
+      "iso_week": "2026-W15",
+      "label_in_pdf": 15,
+      "maandag": "2026-04-06",
+      "zondag": "2026-04-12",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [
+        "2026-04-06"
+      ],
+      "inhaaldagen": [
+        "2026-04-08"
+      ]
+    },
+    {
+      "iso_week": "2026-W16",
+      "label_in_pdf": 16,
+      "maandag": "2026-04-13",
+      "zondag": "2026-04-19",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-04-14",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W17",
+      "label_in_pdf": 17,
+      "maandag": "2026-04-20",
+      "zondag": "2026-04-26",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-04-21",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W18",
+      "label_in_pdf": 18,
+      "maandag": "2026-04-27",
+      "zondag": "2026-05-03",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [
+        "2026-04-27"
+      ],
+      "inhaaldagen": [
+        "2026-04-29"
+      ]
+    },
+    {
+      "iso_week": "2026-W19",
+      "label_in_pdf": 19,
+      "maandag": "2026-05-04",
+      "zondag": "2026-05-10",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [
+        "2026-05-05"
+      ],
+      "inhaaldagen": [
+        "2026-05-06"
+      ]
+    },
+    {
+      "iso_week": "2026-W20",
+      "label_in_pdf": 20,
+      "maandag": "2026-05-11",
+      "zondag": "2026-05-17",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-05-12",
+      "feestdagen": [
+        "2026-05-14"
+      ],
+      "inhaaldagen": [
+        "2026-05-13"
+      ]
+    },
+    {
+      "iso_week": "2026-W21",
+      "label_in_pdf": 21,
+      "maandag": "2026-05-18",
+      "zondag": "2026-05-24",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [
+        "2026-05-24"
+      ],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W22",
+      "label_in_pdf": 22,
+      "maandag": "2026-05-25",
+      "zondag": "2026-05-31",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-05-26",
+      "grof_tuinafval": null,
+      "feestdagen": [
+        "2026-05-25"
+      ],
+      "inhaaldagen": [
+        "2026-05-27"
+      ]
+    },
+    {
+      "iso_week": "2026-W23",
+      "label_in_pdf": 23,
+      "maandag": "2026-06-01",
+      "zondag": "2026-06-07",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-06-02",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W24",
+      "label_in_pdf": 24,
+      "maandag": "2026-06-08",
+      "zondag": "2026-06-14",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W25",
+      "label_in_pdf": 25,
+      "maandag": "2026-06-15",
+      "zondag": "2026-06-21",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-06-16",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W26",
+      "label_in_pdf": 26,
+      "maandag": "2026-06-22",
+      "zondag": "2026-06-28",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-06-23",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W27",
+      "label_in_pdf": 27,
+      "maandag": "2026-06-29",
+      "zondag": "2026-07-05",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W28",
+      "label_in_pdf": 28,
+      "maandag": "2026-07-06",
+      "zondag": "2026-07-12",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-07-07",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W29",
+      "label_in_pdf": 29,
+      "maandag": "2026-07-13",
+      "zondag": "2026-07-19",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-07-14",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W30",
+      "label_in_pdf": 30,
+      "maandag": "2026-07-20",
+      "zondag": "2026-07-26",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W31",
+      "label_in_pdf": 31,
+      "maandag": "2026-07-27",
+      "zondag": "2026-08-02",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-07-28",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W32",
+      "label_in_pdf": 32,
+      "maandag": "2026-08-03",
+      "zondag": "2026-08-09",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-08-04",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W33",
+      "label_in_pdf": 33,
+      "maandag": "2026-08-10",
+      "zondag": "2026-08-16",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W34",
+      "label_in_pdf": 34,
+      "maandag": "2026-08-17",
+      "zondag": "2026-08-23",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-08-18",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W35",
+      "label_in_pdf": 35,
+      "maandag": "2026-08-24",
+      "zondag": "2026-08-30",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-08-25",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W36",
+      "label_in_pdf": 36,
+      "maandag": "2026-08-31",
+      "zondag": "2026-09-06",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W37",
+      "label_in_pdf": 37,
+      "maandag": "2026-09-07",
+      "zondag": "2026-09-13",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-09-08",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W38",
+      "label_in_pdf": 38,
+      "maandag": "2026-09-14",
+      "zondag": "2026-09-20",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-09-15",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W39",
+      "label_in_pdf": 39,
+      "maandag": "2026-09-21",
+      "zondag": "2026-09-27",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W40",
+      "label_in_pdf": 40,
+      "maandag": "2026-09-28",
+      "zondag": "2026-10-04",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-09-29",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W41",
+      "label_in_pdf": 41,
+      "maandag": "2026-10-05",
+      "zondag": "2026-10-11",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-10-06",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W42",
+      "label_in_pdf": 42,
+      "maandag": "2026-10-12",
+      "zondag": "2026-10-18",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W43",
+      "label_in_pdf": 43,
+      "maandag": "2026-10-19",
+      "zondag": "2026-10-25",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-10-20",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W44",
+      "label_in_pdf": 44,
+      "maandag": "2026-10-26",
+      "zondag": "2026-11-01",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-10-27",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W45",
+      "label_in_pdf": 45,
+      "maandag": "2026-11-02",
+      "zondag": "2026-11-08",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W46",
+      "label_in_pdf": 46,
+      "maandag": "2026-11-09",
+      "zondag": "2026-11-15",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-11-10",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W47",
+      "label_in_pdf": 47,
+      "maandag": "2026-11-16",
+      "zondag": "2026-11-22",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-11-17",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W48",
+      "label_in_pdf": 48,
+      "maandag": "2026-11-23",
+      "zondag": "2026-11-29",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W49",
+      "label_in_pdf": 49,
+      "maandag": "2026-11-30",
+      "zondag": "2026-12-06",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-12-01",
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W50",
+      "label_in_pdf": 50,
+      "maandag": "2026-12-07",
+      "zondag": "2026-12-13",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-12-08",
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W51",
+      "label_in_pdf": 51,
+      "maandag": "2026-12-14",
+      "zondag": "2026-12-20",
+      "containers": [
+        "grijs"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": null,
+      "feestdagen": [],
+      "inhaaldagen": []
+    },
+    {
+      "iso_week": "2026-W52",
+      "label_in_pdf": 52,
+      "maandag": "2026-12-21",
+      "zondag": "2026-12-27",
+      "containers": [
+        "oranje"
+      ],
+      "grofvuil": "2026-12-22",
+      "grof_tuinafval": null,
+      "feestdagen": [
+        "2026-12-25",
+        "2026-12-26"
+      ],
+      "inhaaldagen": [
+        "2026-12-23"
+      ]
+    },
+    {
+      "iso_week": "2026-W53",
+      "label_in_pdf": 1,
+      "maandag": "2026-12-28",
+      "zondag": "2027-01-03",
+      "containers": [
+        "groen",
+        "blauw"
+      ],
+      "grofvuil": null,
+      "grof_tuinafval": "2026-12-29",
+      "feestdagen": [
+        "2027-01-01"
+      ],
+      "inhaaldagen": [
+        "2026-12-30"
+      ]
+    }
+  ]
+}

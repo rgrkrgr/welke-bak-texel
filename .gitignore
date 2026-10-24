@@ -1,0 +1,4 @@
+# Geïnstalleerde skills, niet van dit project
+.claude/
+
+__pycache__/
